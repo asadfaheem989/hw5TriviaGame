@@ -1,0 +1,60 @@
+body {
+	color: #111111;
+	background-color:#98999b;
+}
+
+h1 {text-align: center;
+color: #FFDC00;}
+
+p {font-size: 24px;
+	text-align: left;
+	}
+
+.yellow1 {
+	background-color: #ffae35;
+	}
+
+.grey {
+	background-color: #d6d1bc;
+}
+
+.blue {
+	background-color: #bf9bc6;
+}
+
+.yellow {
+	background-color: #FFDC00;
+}
+
+.lightblue {
+	background-color: #a9bdce;
+}
+
+.triviaScreen, .endScreen, .timerScreen {
+	display: none;
+	padding: 0px 0px 30px 30px;
+} 
+
+.starterScreen {
+	padding: 20px 0px 30px 20px;
+}
+
+.timerScreen {
+	text-align: center;
+}
+
+.radio {
+	font-size: 16px;
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: lavender;
+    }
+}
